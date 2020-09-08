@@ -11,10 +11,10 @@ Repositório dedicado a contribuir com minis projetos utilizando CSS3. <br><br>
 
 - 01 - Menu Hambúrguer 
 <p align="center">
-  <img width= '600' src="gifs/01menuhamburguer.gif">
+  <img width= '500' src="gifs/01menuhamburguer.gif">
 </p><br>
 
 - 02 - Animação de Letras SVG
 <p align="center">
-  <img width= '600' src="gifs/02letrassvg.gif">
+  <img width= '500' src="gifs/02letrassvg.gif">
 </p><br>

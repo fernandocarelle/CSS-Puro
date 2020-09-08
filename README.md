@@ -2,7 +2,7 @@
 
 ### Sobre
 
-Repositório dedicado a contribuir com minis projetos utilizando CSS3. <br><br>
+Repositório dedicado a contribuir com mini projetos utilizando CSS3. <br><br>
 
 
 ---

@@ -18,3 +18,8 @@ Repositório dedicado a contribuir com mini projetos utilizando CSS3. <br><br>
 <p align="center">
   <img width= '500' src="gifs/02letrassvg.gif">
 </p><br>
+
+- 02 - Spinner Loader
+<p align="center">
+  <img width= '500' src="gifs/03loader.gif">
+</p><br>

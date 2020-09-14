@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Light Box</title>
+</head>
+<body>
+
+    <ul>
+        <li><a href="#img1"><img src="./img/01.jpg" class="min"></a></li>
+        <li><a href="#img2"><img src="./img/02.jpg" class="min"></a></li>
+        <li><a href="#img3"><img src="./img/03.jpg" class="min"></a></li>
+        <li><a href="#img4"><img src="./img/04.jpg" class="min"></a></li>
+    </ul>
+ 
+    
+    <div class="lbox" id="img1">
+        <div class="box_img">
+            <a href="#img4" class="btn" id="prev">&#171;</a>
+            <a href="" class="btn" id="close">X</a>
+            <img src="./img/01.jpg">
+            <a href="#img2" class="btn" id="next">&#187;</a> 
+        </div>
+    </div>
+    <div class="lbox" id="img2">
+        <div class="box_img">
+            <a href="#img1" class="btn" id="prev">&#171;</a>
+            <a href="" class="btn" id="close">X</a>
+            <img src="./img/02.jpg">
+            <a href="#img3" class="btn" id="next">&#187;</a> 
+        </div>
+    </div>
+    <div class="lbox" id="img3">
+        <div class="box_img">
+            <a href="#img2" class="btn" id="prev">&#171;</a>
+            <a href="" class="btn" id="close">X</a>
+            <img src="./img/03.jpg">
+            <a href="#img4" class="btn" id="next">&#187;</a> 
+        </div>
+    </div>
+    <div class="lbox" id="img4">
+        <div class="box_img">
+            <a href="#img3" class="btn" id="prev">&#171;</a>
+            <a href="" class="btn" id="close">X</a>
+            <img src="./img/04.jpg">
+            <a href="#img1" class="btn" id="next">&#187;</a> 
+        </div>
+    </div>
+    
+</body>
+</html>

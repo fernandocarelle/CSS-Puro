@@ -1,0 +1,90 @@
+body {
+    background: #030302;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+ul {
+    width: 880px;
+    list-style: none;
+    display: flex;
+    margin: 5px auto;
+}
+
+
+.min {
+    width: 200px;
+    padding: 10px;
+
+}
+
+.lbox {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+
+.lbox:target {
+    opacity: 1;
+    visibility: visible;;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(10,10,10,.7);
+
+    display: block;
+
+    position: fixed;
+} 
+
+.box_img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+
+}
+
+.btn {
+    color: #ffffff;
+    font-family: 'Arial';
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.btn:hover {
+    color: rgba(247, 247, 247, 0.8);
+}
+
+#prev {
+    left: 5%;
+    top: 45%;
+}
+
+#next {
+    right: 5%;
+    top: 45%;
+}
+
+#close {
+    margin-top: -40%;
+    right: 2%;
+}
+
+.box_img img {
+    opacity: 0;
+}
+
+.lbox:target .box_img img {
+    opacity: 1;
+    transition: opacity .4s linear;
+}

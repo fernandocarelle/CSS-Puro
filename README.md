@@ -28,3 +28,8 @@ Repositório dedicado a contribuir com mini projetos utilizando CSS3. <br><br>
 <p align="center">
   <img width= '500' src="gifs/04lightbox.gif">
 </p><br>
+
+- 05 - Bloco Revelador
+<p align="center">
+  <img width= '500' src="gifs/05bloco.gif">
+</p><br>
